@@ -1,248 +1,443 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- Lobos Solitarios -->
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loop Loop</title>
-    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon" />
     <!-- Linking Font Awesome For Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <!--- Linking Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <!-- Header / Navbar -->
     <header>
-        <nav class="navbar section-content">
-            <a href="#" class="nav-logo">
-                <h2 class="logo-text">🍓 Loop Loop</h2>
-            </a>
-            <ul class="nav-menu">
-                <button id="menu-close-button" class="fas fa-times"></button>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">🍓 Loop Loop</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#faq" class="nav-link">Preguntas Frecuentes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials" class="nav-link">Testimonios</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#gallery" class="nav-link">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contacto</a>
-                </li>
-            </ul>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contacto</a>
+          </li>
+        </ul>
 
-            <button id="menu-open-button" class="fas fa-bars"></button>
-        </nav>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="section-content">
-                <div class="hero-details">
-                    <h2 class="title">Bienvenido a Loop Loop</h2>
-                    <h3 class="subtitle">Acceso digno a la higiene, con impacto sostenible</h3>
-                    <p class="description">Nuestra máquina dispensadora está diseñada para facilitar el acceso a productos de higiene femenina, promoviendo al mismo tiempo una cultura de responsabilidad ambiental y bienestar social.</p>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Bienvenido a Loop Loop</h2>
+            <h3 class="subtitle">
+              Acceso digno a la higiene, con impacto sostenible
+            </h3>
+            <p class="description">
+              Nuestra máquina dispensadora está diseñada para facilitar el
+              acceso a productos de higiene femenina, promoviendo al mismo
+              tiempo una cultura de responsabilidad ambiental y bienestar
+              social.
+            </p>
 
-                    <div class="buttons">
-                        <a href="#about" class="button about-us">Nosotros</a>
-                        <a href="#contact" class="button contact-us">Contacto</a>
-                    </div>
-                </div>
-                <div class="hero-image-wrapper">
-                <img src="assets/looploop/box-hero-section.png" alt="Hero" class="hero-image">
+            <div class="buttons">
+              <a href="#about" class="button about-us">Nosotros</a>
+              <a href="#contact" class="button contact-us">Contacto</a>
             </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="assets/looploop/box-hero-section.png"
+              alt="Hero"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img
+              src="images/about-image.jpg"
+              alt="About"
+              class="about-image"
+            />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Nosotros</h2>
+            <p class="text">
+              Somos un equipo comprometido con el desarrollo de soluciones
+              innovadoras que generen un impacto positivo en entornos
+              educativos. Nuestro proyecto surge ante la necesidad de mejorar el
+              acceso a productos de higiene femenina dentro de los baños de
+              mujeres en escuelas, contribuyendo al bienestar y la dignidad de
+              las estudiantes.
+            </p>
+            <p class="text">
+              A través de nuestra máquina dispensadora, buscamos facilitar el
+              acceso a productos esenciales de manera práctica y segura, al
+              mismo tiempo que promovemos la conciencia ambiental mediante el
+              aprovechamiento de materiales reutilizables. Creemos en la
+              tecnología como una herramienta para fomentar comunidades
+              escolares más equitativas, responsables y sostenibles.
+            </p>
+            <div class="social-link-list">
+              <a
+                href="https://www.facebook.com/rafa2bp"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/rafax2bp/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://github.com/r-afikiii"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section class="about-section" id="about">
-            <div class="section-content">
-                <div class="about-image-wrapper">
-                    <img src="asset/images/about-image.jpg" alt="About" class="about-image">
-                </div>
-                <div class="about-details">
-                    <h2 class="section-title">Nosotros</h2>
-                    <p class="text">Somos un equipo comprometido con el desarrollo de soluciones innovadoras que generen un impacto positivo en entornos educativos. Nuestro proyecto surge ante la necesidad de mejorar el acceso a productos de higiene femenina dentro de los baños de mujeres en escuelas, contribuyendo al bienestar y la dignidad de las estudiantes.</p>
-                    <p class="text">A través de nuestra máquina dispensadora, buscamos facilitar el acceso a productos esenciales de manera práctica y segura, al mismo tiempo que promovemos la conciencia ambiental mediante el aprovechamiento de materiales reutilizables. Creemos en la tecnología como una herramienta para fomentar comunidades escolares más equitativas, responsables y sostenibles.</p>
-                    <div class="social-link-list">
-                        <a href="https://www.facebook.com/rafa2bp" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/rafax2bp/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://github.com/r-afikiii" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
+      <!-- FAQ Section -->
+      <section class="faq-section" id="faq">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="section-content">
+          <ul class="faq-list">
+            <li class="faq-item">
+              <img
+                src="images/hot-beverages.png"
+                alt="Hot Beverages"
+                class="faq-image"
+              />
+              <h3 class="name">¿Qué es esta máquina?</h3>
+              <p class="text">
+                Es una dispensadora de productos de higiene femenina diseñada
+                para espacios escolares.
+              </p>
+            </li>
+            <li class="faq-item">
+              <img
+                src="images/cold-beverages.png"
+                alt="Cold Beverages"
+                class="faq-image"
+              />
+              <h3 class="name">¿Dónde se encuentra instalada?</h3>
+              <p class="text">
+                Está ubicada en baños de mujeres dentro de instituciones
+                educativas.
+              </p>
+            </li>
+            <li class="faq-item">
+              <img
+                src="images/refreshment.png"
+                alt="Refreshments"
+                class="faq-image"
+              />
+              <h3 class="name">¿Qué productos ofrece?</h3>
+              <p class="text">
+                Ofrece productos básicos de higiene femenina como toallas
+                sanitarias y tampones.
+              </p>
+            </li>
+            <li class="faq-item">
+              <img
+                src="images/special-combo.png"
+                alt="Special Combo"
+                class="faq-image"
+              />
+              <h3 class="name">¿Cómo se realiza el pago?</h3>
+              <p class="text">
+                El acceso a los productos se realiza mediante un sistema
+                alternativo basado en tapas-rosca.
+              </p>
+            </li>
+            <li class="faq-item">
+              <img
+                src="images/desserts.png"
+                alt="Desserts"
+                class="faq-image"
+              />
+              <h3 class="name">¿Cuál es su objetivo principal?</h3>
+              <p class="text">
+                Facilitar el acceso a productos esenciales y promover la equidad
+                en entornos escolares.
+              </p>
+            </li>
+            <li class="faq-item">
+              <img
+                src="images/burger-frenchfries.png"
+                alt="Burger & French Fries"
+                class="faq-image"
+              />
+              <h3 class="name">¿Tiene un enfoque ambiental?</h3>
+              <p class="text">
+                Sí, fomenta la reutilización de materiales y la conciencia
+                ecológica.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonios</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/user-1.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback"
+                    >"“Una solución práctica que realmente marca la diferencia
+                    en el entorno escolar.”"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/user-2.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">James Wilson</h3>
+                  <i class="feedback"
+                    >“Facilita el acceso a productos esenciales de forma
+                    sencilla y responsable.”</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/user-3.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Michael Brown</h3>
+                  <i class="feedback"
+                    >“Una iniciativa innovadora que promueve tanto la equidad
+                    como el cuidado ambiental.”</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/user-4.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Emily Harris</h3>
+                  <i class="feedback"
+                    >“Es una herramienta útil que contribuye al bienestar de las
+                    estudiantes.”</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/user-5.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Anthony Thompson</h3>
+                  <i class="feedback"
+                    >“Un proyecto necesario que responde a una necesidad real
+                    dentro de las escuelas.”</i
+                  >
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- FAQ Section -->
-        <section class="faq-section" id="faq">
-            <h2 class="section-title">Preguntas Frecuentes</h2>
-            <div class="section-content">
-                <ul class="faq-list">
-                    <li class="faq-item">
-                        <img src="asset/images/hot-beverages.png" alt="Hot Beverages" class="faq-image">
-                        <h3 class="name">¿Qué es esta máquina?</h3>
-                        <p class="text">Es una dispensadora de productos de higiene femenina diseñada para espacios escolares.</p>
-                    </li>
-                    <li class="faq-item">
-                        <img src="asset/images/cold-beverages.png" alt="Cold Beverages" class="faq-image">
-                        <h3 class="name">¿Dónde se encuentra instalada?</h3>
-                        <p class="text">Está ubicada en baños de mujeres dentro de instituciones educativas.</p>
-                    </li>
-                    <li class="faq-item">
-                        <img src="asset/images/refreshment.png" alt="Refreshments" class="faq-image">
-                        <h3 class="name">¿Qué productos ofrece?</h3>
-                        <p class="text">Ofrece productos básicos de higiene femenina como toallas sanitarias y tampones.</p>
-                    </li>
-                    <li class="faq-item">
-                        <img src="asset/images/special-combo.png" alt="Special Combo" class="faq-image">
-                        <h3 class="name">¿Cómo se realiza el pago?</h3>
-                        <p class="text">El acceso a los productos se realiza mediante un sistema alternativo basado en tapas-rosca.</p>
-                    </li>
-                    <li class="faq-item">
-                        <img src="asset/images/desserts.png" alt="Desserts" class="faq-image">
-                        <h3 class="name">¿Cuál es su objetivo principal?</h3>
-                        <p class="text">Facilitar el acceso a productos esenciales y promover la equidad en entornos escolares.</p>
-                    </li>
-                    <li class="faq-item">
-                        <img src="asset/images/burger-frenchfries.png" alt="Burger & French Fries" class="faq-image">
-                        <h3 class="name">¿Tiene un enfoque ambiental?</h3>
-                        <p class="text">Sí, fomenta la reutilización de materiales y la conciencia ecológica.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <!-- Gallery Section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Galería</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="images/gallery-1.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery-2.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery-3.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery-4.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery-5.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery-6.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <!-- Testimonials Section -->
-        <section class="testimonials-section" id="testimonials">
-            <h2 class="section-title">Testimonios</h2>
-            <div class="section-content">
-                <div class="slider-container swiper">
-                    <div class="slider-wrapper">
-                        <ul class="testimonials-list swiper-wrapper">
-                            <li class="testimonial swiper-slide">
-                                <img src="asset/images/user-1.jpg" alt="User" class="user-image">
-                                <h3 class="name">Sarah Johnson</h3>
-                                <i class="feedback">"“Una solución práctica que realmente marca la diferencia en el entorno escolar.”"</i>
-                            </li>
-                            <li class="testimonial swiper-slide">
-                                <img src="asset/images/user-2.jpg" alt="User" class="user-image">
-                                <h3 class="name">James Wilson</h3>
-                                <i class="feedback">“Facilita el acceso a productos esenciales de forma sencilla y responsable.”</i>
-                            </li>
-                            <li class="testimonial swiper-slide">
-                                <img src="asset/images/user-3.jpg" alt="User" class="user-image">
-                                <h3 class="name">Michael Brown</h3>
-                                <i class="feedback">“Una iniciativa innovadora que promueve tanto la equidad como el cuidado ambiental.”</i>
-                            </li>
-                            <li class="testimonial swiper-slide">
-                                <img src="asset/images/user-4.jpg" alt="User" class="user-image">
-                                <h3 class="name">Emily Harris</h3>
-                                <i class="feedback">“Es una herramienta útil que contribuye al bienestar de las estudiantes.”</i>
-                            </li>
-                            <li class="testimonial swiper-slide">
-                                <img src="asset/images/user-5.jpg" alt="User" class="user-image">
-                                <h3 class="name">Anthony Thompson</h3>
-                                <i class="feedback">“Un proyecto necesario que responde a una necesidad real dentro de las escuelas.”</i>
-                            </li>
-                        </ul>
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Carr. Querétaro-Tequisquiapan, 76249 Qro.</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>conagirl.looploop@gmail.com</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+52 56 3190 3298</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>r-afikiii.github.io/loop-loop</p>
+                </li>
+            </ul>
+            
+            <form class="contact-form" id="contact-form">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Tu nombre"
+                class="form-input"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Tu correo electrónico"
+                class="form-input"
+                required
+              />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tu mensaje"
+                class="form-input"
+                required
+              ></textarea>
+              <button type="submit" class="submit-button" id="submit-btn">Enviar</button>
+              <p id="form-status"></p>
+            </form>
+        </div>
+      </section>
 
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-slide-button swiper-button-prev"></div>
-                        <div class="swiper-slide-button swiper-button-next"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- Footer Section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2026 Loop Loop. All Rights Reserved.</p>
 
-        <!-- Gallery Section -->
-        <section class="gallery-section" id="gallery">
-            <h2 class="section-title">Galería</h2>
-            <div class="section-content">
-                <ul class="gallery-list">
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-1.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-2.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-3.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-4.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-5.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                    <li class="gallery-item">
-                        <img src="asset/images/gallery-6.jpg" alt="Gallery" class="gallery-image">
-                    </li>
-                </ul>
-            </div>
-        </section>
+          <div class="social-link-list">
+            <a
+              href="https://www.facebook.com/rafa2bp"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/rafax2bp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://github.com/r-afikiii"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
 
-        <!-- Contact Section -->
-        <section class="contact-section" id="contact">
-            <h2 class="section-title">Contacto</h2>
-            <div class="section-content">
-                <ul class="contact-info-list">
-                    <li class="contact-info">
-                        <i class="fa-solid fa-location-crosshairs"></i>
-                        <p>Carr. Querétaro-Tequisquiapan, 76249 Qro.</p>
-                    </li>
-                    <li class="contact-info">
-                        <i class="fa-regular fa-envelope"></i>
-                        <p>looploop@gmail.com</p>
-                    </li>
-                    <li class="contact-info">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>+52 56 3190 3298</p>
-                    </li>
-                    <li class="contact-info">
-                        <i class="fa-solid fa-globe"></i>
-                        <p>r-afikiii.github.io/loop-loop</p>
-                    </li>
-                </ul>
-
-                <form action="#" class="contact-form">
-                    <input type="text" placeholder="Tu nombre" class="form-input" required>
-                    <input type="email" placeholder="Tu correo electrónico" class="form-input" required>
-                    <textarea placeholder="Tu mensaje" class="form-input" required></textarea>
-                    <button class="submit-button">Enviar</button>
-                </form>
-            </div>
-        </section>
-
-        <!-- Footer Section -->
-        <footer class="footer-section">
-            <div class="section-content">
-                <p class="copyright-text">© 2026 Loop Loop. All Rights Reserved.</p>
-
-                <div class="social-link-list">
-                    <a href="https://www.facebook.com/rafa2bp" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/rafax2bp/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/r-afikiii" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fa-brands fa-github"></i></a>
-                </div>
-
-                <p class="policy-text">
-                    <a href="html/privacy.html" class="policy-link">Política de Privacidad</a>
-                    <span class="separator">•</span>
-                    <a href="html/usage.html" class="policy-link">Política de Uso</a>
-                </p>
-            </div>
-        </footer>
+          <p class="policy-text">
+            <a href="html/privacy.html" class="policy-link"
+              >Política de Privacidad</a
+            >
+            <span class="separator">•</span>
+            <a href="html/usage.html" class="policy-link">Política de Uso</a>
+          </p>
+        </div>
+      </footer>
     </main>
 
     <!--- Linking Swiper Script -->
@@ -250,5 +445,5 @@
 
     <!--- Linking Custom Script -->
     <script src="js/scripts.js"></script>
-</body>
+  </body>
 </html>
